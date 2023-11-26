@@ -3,13 +3,15 @@ Este proyecto se centra en el desarrollo de un sistema de Realidad Aumentada (RA
 
 # Video de muestra de ArUco_2D
 
+https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd1-24b4-46c9-aba0-85439ee49771
+
 ## Explicación del Código
 
-**1**. Inicializar el diccionario ArUco y cargar la imagen que se va a superponer
+**1.** Inicializar el diccionario ArUco y cargar la imagen que se va a superponer
   - Seleccionar el diccionario ArUco y cargar la imagen (Spiderman.png).
-2. Inicializar la cámara
+**2.** Inicializar la cámara
   - Iniciar la cámara para la captura en tiempo real.
-3. Mientras la cámara esté abierta:
+**3.** Mientras la cámara esté abierta:
   1. Leer un frame de la cámara
      - Capturar un frame de la cámara.
   2. Convertir el frame a escala de grises
@@ -29,7 +31,5 @@ Este proyecto se centra en el desarrollo de un sistema de Realidad Aumentada (RA
      - Mostrar el frame resultante, ya sea con o sin la imagen superpuesta.
   6. Si se presiona la tecla 'q', cerrar la cámara y salir del bucle
      - Finalizar el bucle si el usuario presiona la tecla 'q'.
-
-https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd1-24b4-46c9-aba0-85439ee49771
-
-
+**4.** Cerrar todas las ventanas abiertas
+  - Liberar recursos y cerrar ventanas después de la captura.
