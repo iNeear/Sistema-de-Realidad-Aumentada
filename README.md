@@ -6,8 +6,7 @@ Este proyecto se centra en el desarrollo de un sistema de Realidad Aumentada (RA
 https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd1-24b4-46c9-aba0-85439ee49771
 
 ## Explicación del Código
-
-1. Inicializar el diccionario ArUco y cargar la imagen que se va a superponer
+- Inicializar el diccionario ArUco y cargar la imagen que se va a superponer
   - Seleccionar el diccionario ArUco y cargar la imagen (Spiderman.png).
 
 2. Inicializar la cámara
