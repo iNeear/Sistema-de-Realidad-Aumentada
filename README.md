@@ -14,8 +14,8 @@ https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd
   - Iniciar la cámara para la captura en tiempo real.
 
 3. Mientras la cámara esté abierta:
-  3.1 Leer un frame de la cámara
-     - Capturar un frame de la cámara.
+  Leer un frame de la cámara
+    - Capturar un frame de la cámara.
   3.2 Convertir el frame a escala de grises
      - Convertir el frame a escala de grises para facilitar el procesamiento.
   3.3 Detectar los marcadores ArUco en el frame
@@ -34,5 +34,5 @@ https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd
   3.6 Si se presiona la tecla 'q', cerrar la cámara y salir del bucle
      - Finalizar el bucle si el usuario presiona la tecla 'q'.
 
-4. Cerrar todas las ventanas abiertas
+5. Cerrar todas las ventanas abiertas
   - Liberar recursos y cerrar ventanas después de la captura.
