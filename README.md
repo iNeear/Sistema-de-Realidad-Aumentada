@@ -14,10 +14,12 @@ https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd
   - Iniciar la cámara para la captura en tiempo real.
 
 3. Mientras la cámara esté abierta:
-   
-  3.1 Leer un frame de la cámara
-    - Capturar un frame de la cámara.
-  3.2 Convertir el frame a escala de grises
+   1 Leer un frame de la cámara
+     - Capturar un frame de la cámara.
+
+
+
+   3.2 Convertir el frame a escala de grises
      - Convertir el frame a escala de grises para facilitar el procesamiento.
   3.3 Detectar los marcadores ArUco en el frame
      - Utilizar el diccionario ArUco para detectar marcadores en el frame.
