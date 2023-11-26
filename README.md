@@ -47,6 +47,32 @@ Una vez obtenidos los parámetros de la cámara, se procedió a la detección de
 
 https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/7adc1b5c-5ae4-493c-a1e6-40fc56d89844
 
+## Explicación del Código 3D
+
+1. Preparación y Configuración:
+  - Importar bibliotecas necesarias: NumPy, OpenCV y OS.
+2. Configuración de la Calibración:
+  - Establecer criterio de terminación y definir puntos del objeto (esquinas del tablero de ajedrez).
+3. Captura de Imágenes para Calibración:
+  - Iniciar la cámara y capturar imágenes del tablero de ajedrez al presionar 'c'.
+4. Calibración de la Cámara:
+  - Calibrar la cámara utilizando las imágenes capturadas.
+5. Guardado de Parámetros de Calibración:
+  - Guardar los parámetros de calibración en un archivo.
+6. Realidad Aumentada con ARuco:
+- Utilizar ARuco para detectar marcadores y superponer un cubo virtual.
+7. Dibujo de Marcadores y Cubo:
+  - Dibujar marcadores ARuco, ejes y un cubo virtual en el feed de la cámara.
+8. Visualización y Salida:
+  - Mostrar el feed de la cámara y salir si se presiona 'q'.
+9. Liberación de Recursos:
+- Liberar recursos de la cámara y cerrar ventanas.
+
+
+
+
+
+
 
 
 
