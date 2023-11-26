@@ -5,7 +5,7 @@ Este proyecto se centra en el desarrollo de un sistema de Realidad Aumentada (RA
 
 https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd1-24b4-46c9-aba0-85439ee49771
 
-## Explicación del Código
+## Explicación del Código 2D
 1. Inicializar el diccionario ArUco y cargar la imagen que se va a superponer
   - Seleccionar el diccionario ArUco y cargar la imagen (Spiderman.png).
 
@@ -34,3 +34,20 @@ https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd
      - Finalizar el bucle si el usuario presiona la tecla 'q'.
 5. Cerrar todas las ventanas abiertas
   - Liberar recursos y cerrar ventanas después de la captura.
+
+# Video de muestra de ArUco_3D
+
+La calibración de la cámara es un paso crucial en la visión por computadora. Implica capturar imágenes de un objeto conocido (como un tablero de ajedrez) desde diferentes ángulos para estimar los parámetros de la cámara. Estos parámetros, que incluyen la distancia focal y el punto principal, son esenciales para convertir las coordenadas de los puntos en el mundo 3D a sus correspondientes coordenadas en la imagen 2D. Una vez calibrada, la cámara puede corregir la distorsión de la lente, mejorar la precisión de la detección de objetos y permitir la representación precisa de objetos 3D en la imagen 2D.
+
+https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/f05b4de3-0e64-4bca-904f-820f1a5ce136
+
+Una vez obtenidos los parámetros de la cámara, se procedió a la detección del marcador ArUco. Sin embargo, al detectar el ArUco, la pantalla se congeló debido a un error. Este error, AttributeError: module 'cv2.aruco' has no attribute 'drawAxis', indica que Python no pudo encontrar la función drawAxis en el módulo cv2.aruco. A pesar de varios intentos de solución, incluyendo la verificación de la versión de OpenCV, la desinstalación y reinstalación de OpenCV, y la creación de un nuevo entorno virtual, el problema persistió. 
+
+![Error](https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/b1e587ce-e209-4415-b432-c0ce06e8eb15)
+
+https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/7adc1b5c-5ae4-493c-a1e6-40fc56d89844
+
+
+
+
+
