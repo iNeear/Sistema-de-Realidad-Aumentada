@@ -13,7 +13,7 @@ https://github.com/iNeear/Sistema-de-Realidad-Aumentada/assets/131725786/ae3f1cd
   - Iniciar la cámara para la captura en tiempo real.
 
 3. Mientras la cámara esté abierta:
-   1 Leer un frame de la cámara
+   - Leer un frame de la cámara
      - Capturar un frame de la cámara.
 
 
